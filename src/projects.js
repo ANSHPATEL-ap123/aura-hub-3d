@@ -65,4 +65,17 @@ export const projects = [
     github: 'https://github.com/ANSHPATEL-ap123/AuraVision',
     demo: ' https://auravision-anshp.netlify.app/ ',
   },
+  {
+    id: 'aurasound',
+    name: 'AuraSound',
+    color: '🟦 #3B82F6', // Electric Blue
+    type: 'Solo Project',
+    description:
+      'AI-driven audio engine that synchronizes real-time facial expressions with dynamic music playlists and reactive visualizers.',
+    tags: ['React', 'Face-API.js', 'Web Audio API'],
+    orbitSpeed: 0.4,
+    orbitRadius: 11,
+    github: 'https://github.com/ANSHPATEL-ap123/AuraSound',
+    demo: 'https://aura-sound-v2-0.vercel.app/',
+  },
 ];
