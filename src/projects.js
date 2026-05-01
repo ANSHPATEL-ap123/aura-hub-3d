@@ -68,7 +68,7 @@ export const projects = [
   {
     id: 'aurasound',
     name: 'AuraSound',
-    color: '🟦 #00F3FF', // Cyber Cyan - Much brighter in the 3D scene
+    color: '#00F3FF', // Cyber Cyan - Much brighter in the 3D scene
     type: 'Solo Project',
     description:
       'AI-driven audio engine that synchronizes real-time facial expressions with dynamic music playlists and reactive visualizers.',
