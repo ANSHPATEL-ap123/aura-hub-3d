@@ -67,7 +67,7 @@ export const projects = [
   },
   {
     id: 'aurasound',
-    name: 'AuraSound',
+    name: 'AuraSound-V2.0',
     color: '#00F3FF', // Cyber Cyan - Much brighter in the 3D scene
     type: 'Solo Project',
     description:
@@ -75,7 +75,7 @@ export const projects = [
     tags: ['React', 'Face-API.js', 'Web Audio API'],
     orbitSpeed: 0.4,
     orbitRadius: 11,
-    github: 'https://github.com/ANSHPATEL-ap123/AuraSound',
+    github: 'https://github.com/ANSHPATEL-ap123/AuraSound-V2.0',
     demo: 'https://aura-sound-v2-0.vercel.app/',
   },
 ];
