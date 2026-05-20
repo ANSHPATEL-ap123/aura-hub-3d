@@ -7,7 +7,7 @@ export const projects = [
   {
     id: 'aurabi',
     name: 'AuraBI',
-    color: '#50FA7B', // Neon Emerald
+    color: '#FF8C00', // Neon Emerald
     type: 'Team Project',
     description:
       'AI-driven data visualization engine that transforms raw datasets into interactive, real-time dashboards with predictive analytics and anomaly detection.',
