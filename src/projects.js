@@ -7,7 +7,7 @@ export const projects = [
   {
     id: 'aurabi',
     name: 'AuraBI',
-    color: '#FF8C00', // Neon Emerald
+    color: '#FF8C00', // Vivid Cyber Orange
     type: 'Team Project',
     description:
       'AI-driven data visualization engine that transforms raw datasets into interactive, real-time dashboards with predictive analytics and anomaly detection.',
@@ -33,7 +33,7 @@ export const projects = [
   {
     id: 'aurasound',
     name: 'AuraSound-V2.0',
-    color: '#00F3FF', // Cyber Cyan - Much brighter in the 3D scene
+    color: '#00F3FF', // Cyber Cyan
     type: 'Solo Project',
     description:
       'AI-driven audio engine that synchronizes real-time facial expressions with dynamic music playlists and reactive visualizers.',
@@ -53,7 +53,20 @@ export const projects = [
     tags: ['Next.js', 'Three.js', 'Gemini AI'],
     orbitSpeed: 0.25,
     orbitRadius: 14,
-    github: 'https://github.com/brajesh1210/risk-LENS.git', // Verify this link
-    demo: 'https://risk-lens-nine.vercel.app/', // Update with your actual Vercel link once deployed
+    github: 'https://github.com/brajesh1210/risk-lens', 
+    demo: 'https://risk-lens.vercel.app/', 
+  },
+  {
+    id: 'nyas-upasthiti',
+    name: 'NYAS-UPASTHITI',
+    color: '#FFD700', // Cyber Gold / Bright Yellow
+    type: 'Team Project', // Update if this is a Solo Project
+    description:
+      'A modern attendance and organizational management system designed for seamless tracking and operational efficiency.', // Update this with your actual project details
+    tags: ['Next.js', 'Tailwind CSS', 'Database'], // Update with your actual tech stack
+    orbitSpeed: 0.2, // Slower orbit since it is the furthest out
+    orbitRadius: 17, // Pushed out past risk-LENS
+    github: 'https://github.com/ANSHPATEL-ap123/NYAS-UPASTHITI-FINAL.git',
+    demo: 'https://your-live-link-here.vercel.app/', // Add your live deployment link
   },
 ];
