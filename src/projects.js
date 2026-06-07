@@ -69,4 +69,17 @@ export const projects = [
     github: 'https://github.com/ANSHPATEL-ap123/NYAS-UPASTHITI-FINAL.git',
     demo: 'https://your-live-link-here.vercel.app/', // Add your live deployment link
   },
+  {
+    id: 'dermlens',
+    name: 'DermLens',
+    color: '#10B981', // Bioluminescent Emerald (matching your UI)
+    type: 'Team Project', 
+    description:
+      'AI-driven clinical dermatology dashboard generating personalized AM/PM treatment protocols, lifestyle adjustments, and risk assessments.', 
+    tags: ['Next.js', 'Tailwind', 'Firebase', 'AI'], 
+    orbitSpeed: 0.15, // Majestic, sweeping outer orbit
+    orbitRadius: 20, // Pushed to the new outer rim
+    github: 'https://github.com/ANSHPATEL-ap123/DERMLENS.git',
+    demo: 'https://dermlens-brown.vercel.app/', 
+  },
 ];
