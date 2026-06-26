@@ -1,9 +1,23 @@
 /**
  * Aura Series — Project Data
  * Each project is rendered as an orbiting planet in the 3D scene.
+ * The Sun (Portfolio) is anchored at the center with a radius of 0.
  */
 
 export const projects = [
+  {
+    id: 'portfolio-sun',
+    name: 'Ansh Patel | Portfolio',
+    color: '#FFB300', // Radiant Sun Gold
+    type: 'Main Hub',
+    description:
+      'The gravitational center of my digital universe. A minimalist, professional portfolio showcasing my engineering journey, technical skills, and core projects.',
+    tags: ['React', 'Tailwind CSS', 'Vite'],
+    orbitSpeed: 0, // Stays perfectly still in the center
+    orbitRadius: 0, // Anchored at the origin (0,0,0)
+    github: 'https://github.com/ANSHPATEL-ap123/resume-ansh.git',
+    demo: 'https://ansh-portfolio-ten-gamma.vercel.app/',
+  },
   {
     id: 'aurabi',
     name: 'AuraBI',
@@ -60,25 +74,25 @@ export const projects = [
     id: 'nyas-upasthiti',
     name: 'NYAS-UPASTHITI',
     color: '#FFD700', // Cyber Gold / Bright Yellow
-    type: 'Team Project', // Update if this is a Solo Project
+    type: 'Team Project',
     description:
-      'A modern attendance and organizational management system designed for seamless tracking and operational efficiency.', // Update this with your actual project details
-    tags: ['Next.js', 'Tailwind CSS', 'Database'], // Update with your actual tech stack
-    orbitSpeed: 0.2, // Slower orbit since it is the furthest out
-    orbitRadius: 17, // Pushed out past risk-LENS
+      'A modern attendance and organizational management system designed for seamless tracking and operational efficiency.',
+    tags: ['Next.js', 'Tailwind CSS', 'Database'],
+    orbitSpeed: 0.2, 
+    orbitRadius: 17, 
     github: 'https://github.com/ANSHPATEL-ap123/NYAS-UPASTHITI-FINAL.git',
-    demo: 'https://your-live-link-here.vercel.app/', // Add your live deployment link
+    demo: 'https://your-live-link-here.vercel.app/', 
   },
   {
     id: 'dermlens',
     name: 'DermLens',
-    color: '#10B981', // Bioluminescent Emerald (matching your UI)
+    color: '#10B981', // Bioluminescent Emerald
     type: 'Team Project', 
     description:
       'AI-driven clinical dermatology dashboard generating personalized AM/PM treatment protocols, lifestyle adjustments, and risk assessments.', 
     tags: ['Next.js', 'Tailwind', 'Firebase', 'AI'], 
-    orbitSpeed: 0.15, // Majestic, sweeping outer orbit
-    orbitRadius: 20, // Pushed to the new outer rim
+    orbitSpeed: 0.15, 
+    orbitRadius: 20, 
     github: 'https://github.com/ANSHPATEL-ap123/DERMLENS.git',
     demo: 'https://dermlens-brown.vercel.app/', 
   },
