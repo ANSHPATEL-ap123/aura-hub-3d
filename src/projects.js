@@ -96,4 +96,17 @@ export const projects = [
     github: 'https://github.com/ANSHPATEL-ap123/DERMLENS.git',
     demo: 'https://dermlens-brown.vercel.app/', 
   },
+  {
+    id: 'auraspace',
+    name: 'AuraSpace',
+    color: '#0F172A', // Deep Space Blue
+    type: 'Solo Project',
+    description:
+      'A personal celestial navigation hub designed for astronomy enthusiasts. Features real-time tracking, orbital mechanics visualization, and environmental quality assessment for optimal stargazing.',
+    tags: ['Next.js', 'TypeScript', 'Lucide-React'],
+    orbitSpeed: 0.35,
+    orbitRadius: 23, // Positioned beyond DermLens to expand your universe
+    github: 'https://github.com/ANSHPATEL-ap123/auraspace', 
+    demo: 'https://auraspace-lake.vercel.app/', 
+  },
 ];
