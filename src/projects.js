@@ -112,13 +112,13 @@ export const projects = [
   {
     id='PRISM',
     name:'PRISM',
-    color: '#ff0000', // Neon Bright Pink
+    color: '#ff0000', 
     type: 'Solo Project',
     description:
       'A personal celestial navigation hub designed for astronomy enthusiasts. Features real-time tracking, orbital mechanics visualization, and environmental quality assessment for optimal stargazing.',
     tags: ['huggingface','gradio','python'],
-    orbitSpeed: 0.35,
-    orbitRadius: 23,
+    orbitSpeed: 0.45,
+    orbitRadius: 26,
     github: 'https://huggingface.co/spaces/anshpatel123/PRISM/tree/main', 
     demo: 'https://huggingface.co/spaces/anshpatel123/PRISM', 
   }
