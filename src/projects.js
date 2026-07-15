@@ -110,7 +110,7 @@ export const projects = [
     demo: 'https://auraspace-lake.vercel.app/', 
   },
   {
-    id='PRISM',
+    id:'PRISM',
     name:'PRISM',
     color: '#ff0000', 
     type: 'Solo Project',
