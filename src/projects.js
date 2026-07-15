@@ -109,4 +109,17 @@ export const projects = [
     github: 'https://github.com/ANSHPATEL-ap123/auraspace', 
     demo: 'https://auraspace-lake.vercel.app/', 
   },
+  {
+    id='PRISM',
+    name:'PRISM',
+    color: '#ff0000', // Neon Bright Pink
+    type: 'Solo Project',
+    description:
+      'A personal celestial navigation hub designed for astronomy enthusiasts. Features real-time tracking, orbital mechanics visualization, and environmental quality assessment for optimal stargazing.',
+    tags: ['huggingface','gradio','python'],
+    orbitSpeed: 0.35,
+    orbitRadius: 23,
+    github: 'https://huggingface.co/spaces/anshpatel123/PRISM/tree/main', 
+    demo: 'https://huggingface.co/spaces/anshpatel123/PRISM', 
+  }
 ];
