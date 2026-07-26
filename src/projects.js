@@ -117,7 +117,7 @@ export const projects = [
     description:
       'A personal celestial navigation hub designed for astronomy enthusiasts. Features real-time tracking, orbital mechanics visualization, and environmental quality assessment for optimal stargazing.',
     tags: ['huggingface','gradio','python'],
-    orbitSpeed: 0.45,
+    orbitSpeed: 0.38,
     orbitRadius: 26,
     github: 'https://huggingface.co/spaces/anshpatel123/PRISM/tree/main', 
     demo: 'https://huggingface.co/spaces/anshpatel123/PRISM', 
