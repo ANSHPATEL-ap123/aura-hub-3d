@@ -121,5 +121,17 @@ export const projects = [
     orbitRadius: 26,
     github: 'https://huggingface.co/spaces/anshpatel123/PRISM/tree/main', 
     demo: 'https://huggingface.co/spaces/anshpatel123/PRISM', 
+  },
+   {
+    id:'PolicyPay',
+    name:'PolicyPay',
+    color: '#0004ff', 
+    type: 'team Project',
+    description:'An enforcement layer to control the payments done by AI Agents',
+    tags: ['x402','typescript','postgresql'],
+    orbitSpeed: 0.40,
+    orbitRadius: 29,
+    github: 'https://github.com/brajesh1210/PolicyPay', 
+    demo: 'http://policypay-kohl.vercel.app/', 
   }
 ];
