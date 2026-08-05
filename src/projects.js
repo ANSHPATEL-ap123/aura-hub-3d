@@ -133,5 +133,17 @@ export const projects = [
     orbitRadius: 29,
     github: 'https://github.com/brajesh1210/PolicyPay', 
     demo: 'http://policypay-kohl.vercel.app/', 
+  },
+     {
+    id:'Geoshock',
+    name:'GeoShock',
+    color: '#FFA500', 
+    type: 'solo Project',
+    description:'AI-powered seismic analytics platform designed to predict human impact, estimate economic damage, and identify historical disaster patterns using real-time earthquake parameters.',
+    tags: ['streamlit','randomforest','xgboost'],
+    orbitSpeed: 0.33,
+    orbitRadius: 31,
+    github: 'https://github.com/ANSHPATEL-ap123/GeoShock', 
+    demo: 'https://geoshock.streamlit.app/', 
   }
 ];
