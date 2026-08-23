@@ -145,5 +145,17 @@ export const projects = [
     orbitRadius: 31,
     github: 'https://github.com/ANSHPATEL-ap123/GeoShock', 
     demo: 'https://geoshock.streamlit.app/', 
+  },
+    {
+    id:'ShodhFund',
+    name:'ShodhFund',
+    color: '#CFFF04', 
+    type: 'team Project',
+    description:'AI powered platform for handling and managing the funding that are received from various organzations for research',
+    tags: ['TypeScript','Gemini API','Neon'],
+    orbitSpeed: 0.14,
+    orbitRadius: 33,
+    github: 'https://github.com/ANSHPATEL-ap123/ShodhFund', 
+    demo: 'https://shodhfund.vercel.app/', 
   }
 ];
