@@ -157,5 +157,17 @@ export const projects = [
     orbitRadius: 33,
     github: 'https://github.com/ANSHPATEL-ap123/ShodhFund', 
     demo: 'https://shodhfund.vercel.app/', 
+  },
+  {
+    id:'OrbitControl',
+    name:'OrbitControl',
+    color: '#00FFFF', 
+    type: 'solo Project',
+    description:'JS PROJECT,USING DIFFERENT APIs',
+    tags: ['JS','CSS','HTML'],
+    orbitSpeed: 0.15,
+    orbitRadius: 35,
+    github: 'https://github.com/ANSHPATEL-ap123/OrbitControl.git', 
+    demo: 'orbit-control-theta.vercel.app', 
   }
 ];
